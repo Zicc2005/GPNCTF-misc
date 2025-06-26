@@ -1,0 +1,106 @@
+Standard key bindings
+"^@"           ->  is undefined
+"^A"           ->  ed-move-to-beg
+"^B"           ->  ed-prev-char
+"^C"           ->  ed-ignore
+"^D"           ->  em-delete-or-list
+"^E"           ->  ed-move-to-end
+"^F"           ->  ed-next-char
+"^G"           ->  is undefined
+"^H"           ->  em-delete-prev-char
+"^I"           ->  is undefined
+"^J"           ->  ed-newline
+"^N"           ->  ed-next-history
+"^O"           ->  ed-ignore
+"^P"           ->  ed-prev-history
+"^Q"           ->  ed-ignore
+"^R"           ->  is undefined
+"^S"           ->  ed-ignore
+"^T"           ->  is undefined
+"^U"           ->  em-kill-line
+"^V"           ->  is undefined
+"^W"           ->  ed-delete-prev-word
+"^X"           ->  ed-sequence-lead-in
+"^Y"           ->  is undefined
+"^Z"           ->  ed-ignore
+"^["           ->  ed-sequence-lead-in
+"^\" to "^]"   ->  ed-ignore
+"*"            ->  ed-insert
+"="  to ">"    ->  ed-insert
+"a"  to "d"    ->  ed-insert
+"e"            ->  is undefined
+"f"  to "r"    ->  ed-insert
+"s"            ->  is undefined
+"t"  to "u"    ->  ed-insert
+"v"            ->  is undefined
+"w"  to "z"    ->  ed-insert
+"^?"           ->  em-delete-prev-char
+"\U+0088"      ->  ed-delete-prev-word
+"\U+008C"      ->  ed-clear-screen
+"\U+009F"      ->  em-copy-prev-word
+"\U+00B0" to "\U+00B9"->  ed-argument-digit
+"\U+00C2"      ->  ed-prev-word
+"\U+00C3"      ->  em-capitol-case
+"\U+00C4"      ->  em-delete-next-word
+"\U+00C5"      ->  is undefined
+"\U+00C6"      ->  em-next-word
+"\U+00CC"      ->  em-lower-case
+"\U+00CD"      ->  is undefined
+"\U+00CE"      ->  ed-search-next-history
+"\U+00CF"      ->  ed-sequence-lead-in
+"\U+00D0"      ->  ed-search-prev-history
+"\U+00D5"      ->  em-upper-case
+"\U+00D6"      ->  is undefined
+"\U+00D7"      ->  em-copy-region
+"\U+00D8"      ->  ed-command
+"\U+00DB"      ->  ed-sequence-lead-in
+"\U+00E2"      ->  ed-prev-word
+"\U+00E3"      ->  em-capitol-case
+"\U+00E4"      ->  em-delete-next-word
+"\U+00E5"      ->  is undefined
+"\U+00E6"      ->  em-next-word
+"\U+00EC"      ->  em-lower-case
+"\U+00ED"      ->  is undefined
+"\U+00EE"      ->  ed-search-next-history
+"\U+00EF"      ->  is undefined
+"\U+00F0"      ->  ed-search-prev-history
+"\U+00F5"      ->  em-upper-case
+"\U+00F6"      ->  is undefined
+"\U+00F7"      ->  em-copy-region
+"\U+00F8"      ->  ed-command
+"\U+00FF"      ->  ed-delete-prev-word
+Alternative key bindings
+Multi-character bindings
+"^[^H"         ->  ed-delete-prev-word
+"^[^L"         ->  ed-clear-screen
+"^[^_"         ->  em-copy-prev-word
+"^[B"          ->  ed-prev-word
+"^[D"          ->  em-delete-next-word
+"^[F"          ->  em-next-word
+"^[L"          ->  em-lower-case
+"^[U"          ->  em-upper-case
+"^[b"          ->  ed-prev-word
+"^[d"          ->  em-delete-next-word
+"^[f"          ->  em-next-word
+"^[l"          ->  em-lower-case
+"^[u"          ->  em-upper-case
+"^[^?"         ->  ed-delete-prev-word
+"^[[C"         ->  ed-next-char
+"^[[D"         ->  ed-prev-char
+"^[[H"         ->  ed-move-to-beg
+"^[[F"         ->  ed-move-to-end
+"^[[3~"        ->  ed-delete-next-char
+"^[OA"         ->  ed-prev-history
+"^[OB"         ->  ed-next-history
+"^[OC"         ->  ed-next-char
+"^[OD"         ->  ed-prev-char
+"^[OH"         ->  ed-move-to-beg
+"^[OF"         ->  ed-move-to-end
+Arrow key bindings
+down           ->  ed-next-history
+up             ->  ed-prev-history
+left           ->  ed-prev-char
+right          ->  ed-next-char
+home           ->  ed-move-to-beg
+end            ->  ed-move-to-end
+delete         ->  ed-delete-next-char
